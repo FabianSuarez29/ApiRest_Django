@@ -3,6 +3,6 @@ from .api import DataViewSet
 
 router = routers.DefaultRouter()
 
-router.register('api/data.all_value', DataViewSet, 'data')
+router.register('api/data', DataViewSet, 'data')
 
 urlpatterns = router.urls

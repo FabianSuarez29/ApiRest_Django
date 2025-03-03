@@ -6,7 +6,7 @@ from rest_framework.decorators import action
 class AgroAndFarmingViewSet(viewsets.ViewSet):
     
     @action(detail=False, methods=['get'], url_path='', url_name='agroandfarming-root') 
-    def all_agroandfarming(self, request):
+    def Agro_and_Farming(self, request):
         file_path = './csv/agriculture_dataset.csv'
         
         try:

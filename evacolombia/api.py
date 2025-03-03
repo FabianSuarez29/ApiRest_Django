@@ -6,7 +6,7 @@ from rest_framework.decorators import action
 class EVAColombiaViewSet(viewsets.ViewSet):
     
     @action(detail=False, methods=['get'], url_path='', url_name='evacolombia-root') 
-    def all_evacolombia(self, request):
+    def EVA_Colombia(self, request):
         file_path = './csv/Evaluaciones_Agropecuarias_Municipales_EVA.csv'
         
         try:

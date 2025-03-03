@@ -6,7 +6,7 @@ from rest_framework.decorators import action
 class DataViewSet(viewsets.ViewSet):
     
     @action(detail=False, methods=['get'], url_path='', url_name='data-root') 
-    def all_value(self, request):
+    def Science_and_Technology_India(self, request):
         file_path = './csv/science-and-technology-indicators-for-india-1.csv'
         
         try:
