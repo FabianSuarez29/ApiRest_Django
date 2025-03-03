@@ -24,6 +24,4 @@ urlpatterns = [
     path('', include('data.urls')),
     path('', include('agroandfarming.urls')),
     path('', include('evacolombia.urls'))
-    #path('', include('apiandres.urls'))
-    #path('', include('camila.urls'))
 ]

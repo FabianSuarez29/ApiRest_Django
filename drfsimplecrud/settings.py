@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'data',
     'agroandfarming',
     'evacolombia',
-    #'apiandres',
     'rest_framework',
 ]
 
