@@ -39,6 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'projects',
     'users',
+    'data',
+    'agroandfarming',
+    'evacolombia',
+    #'apiandres',
     'rest_framework',
 ]
 
